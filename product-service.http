@@ -1,0 +1,30 @@
+###
+POST http://localhost:8080/api/product
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Apple iPhone 12 Pro Max",
+  "description": "Apple iPhone 12 Pro Max",
+  "price": "122211"
+}
+
+###
+POST http://localhost:8080/api/product
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Apple iPhone 12 Pro Max",
+  "description": "Apple iPhone 12 Pro Max",
+  "price": "99999"
+}
+
+###
+GET http://localhost:8080/api/product/one?id=626e40b12de4a1018ab7b590"
+Accept: application/json
+
+###
+GET http://localhost:8080/api/product
+Accept: application/json
+
